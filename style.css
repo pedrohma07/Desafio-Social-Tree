@@ -1,0 +1,74 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+ *{
+    margin: 0;
+    font-family: 'Poppins';
+  }
+
+  body{
+    background-color: var(--body-bg-color);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .link-item{
+    width: 326px;
+    height: 49px;
+    border: 2px solid var(--purple);
+    font-weight: 600;
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .items{
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ig{
+    height: 70px;
+    width: 326px;display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--purple);
+  }
+
+  .perfil{
+    width: 200px;
+    border-radius: 150px;
+    padding: 4px;
+    border: 2px solid var(--purple);
+    
+  }
+
+  .medias-sociais{
+    margin-top: 20px;
+    width: 236px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div a img{
+    margin: 0;
+    width: 25px;
+    height: 24px;
+  }
+
+span a{
+    text-decoration: none;
+    color: var(--purple);
+}
